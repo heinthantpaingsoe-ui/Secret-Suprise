@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 41st Dad!</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<link rel="stylesheet" href="bday.css">
+<body>
+    <div class="container-fluid">
+        <div class="title">
+            <h1 class="main-title">Happy Birthday</h1>
+            <h1 class="secondary-title ">Dad!</h1>
+            <div class="definition">
+                <div class="top">
+                    <button class="audio-btn" onclick="playSound()">
+                    <span class="material-symbols-outlined icon"><img src="Images/Sound-Player.png" alt="" class="Sound-Icon"></span>
+                </button>
+                    <audio id="clickSound" src="Dad-Audio.mp3"></audio>
+                <div class="top-text">
+                    <h4 class="text">Dad</h4>
+                    <h4 class="text-two">/dad/</h4>
+                </div>
+                </div>
+                <div class="bottom">
+                    <p class="definition-text">
+                        "Dad" is an informal, affectionate term for a male parent or father. While "father" is typically more formal and can strictly denote biological parentage, "dad" is primarily used for the male who raises, cares for, or acts as a father figure to a child.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ILY-Dad" data-aos="fade-up">
+            <h1 class="card-title">
+                I love you utterly and unconditionally dad, I am the person I am today because of you. And I am eternally and forever grateful.
+            </h1>
+        </div>
+        <hr>
+        <div class="memories">
+            <h1 class="memories-title">
+                Let's take a road down memory lane dad. And remember the good times we had.
+            </h1>
+            <div class="cards-container">
+                <div class="Memory-Cards first-top" data-aos="fade-up">
+                    <p class="memory-text">My first ever graduation ceremony for Year 4, I got my first ever award in EDUSN and made you proud.</p>
+                </div>
+                <div class="Memory-Cards second-top" data-aos="fade-up">
+                    <p class="memory-text">My second graduation ceremony for Year 5, I got the most awards in the class with 3 awards and got the first ever director of studies award.</p>
+                </div>
+                <div class="Memory-Cards third-top" data-aos="fade-up">
+                    <p class="memory-text">My third graduation ceremony for Year 6, I got the best PBL award for my application and got my scholarship which was the best achivement since it made you proud.</p>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="Memory-Cards first-bottom" data-aos="fade-up">
+                    <p class="memory-text">We went out to eat at my favourite Indonesian restaurant. And ate lunch together as a family.</p>
+                </div>
+                <div class="Memory-Cards second-bottom" data-aos="fade-up">
+                    <p class="memory-text">We ate J Donut when I was a kid and had fun.</p>
+                </div>
+                <div class="Memory-Cards third-bottom" data-aos="fade-up">
+                    <p class="memory-text">We went to Sule Square when I was a child, I remember we went in December since inside there was a Christmas tree.</p>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="Memory-Cards first-last" data-aos="fade-up">
+                    <p class="memory-text">We went to the Secretariat building at Thadingyut to relax and have fun. I took this picture of you and mom</p>
+                </div>
+                <div class="Memory-Cards second-last" data-aos="fade-up">
+                    <p class="memory-text">Our first time going to Mandalay togehther when it was Thadingyut 2023. I even lit up candles at the hotel.</p>
+                </div>
+                <div class="Memory-Cards third-last" data-aos="fade-up">
+                    <p class="memory-text">We went to a park toghether when I was a toddler.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="End-Wish" data-aos="fade-up">
+            <h1 class="Wish-Card">
+                Once again, I truly love you dad. You are the best and the only dad I could ever ask for. I hope you have a long and happy life with mom and me. Just know no matter what in life we have eachother. And I truly am honored to be your son.
+                <br> - Love, Your Son.
+            </h1>
+        </div>
+    </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  function playSound() {
+    const sound = document.getElementById("clickSound");
+    sound.currentTime = 0; 
+    
+    sound.play();
+  }
+</script>
+</body>
+</html>
